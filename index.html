@@ -19,6 +19,116 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-
+        <header>
+            <nav>
+                <!-- Update this to a more appropriate tag-->
+                <div>Mary Etokwudo</div>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Banner-->
+            <section>
+                <div>
+                    <h1>Hi! I'm Mary Etokwudo</h1>
+                    <p>I build websites for a living</p>
+                </div>
+                <div>
+                    <img src="full-image.png" alt="full profile photo" />
+                </div>
+            </section>
+            <!--Skills-->
+            <section id="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>MongoDB</li>
+                    <li>GraphQL</li>
+                </ul>
+            </section>
+            <!--Work Experience-->
+            <section id="work">
+                <ul>
+                    <div class="company">
+                        <a href="">
+                            <img src="" alt="" />
+                            <div class="company-name"></div>
+                            <div class="company-location"></div>
+                        </a>
+                    </div>
+                    <div class="role"></div>
+                    <div class="duration">
+                        <span>Start</span>
+                        <span>to</span>
+                        <span>End</span>
+                    </div>
+                    <div>
+                      <ul class="responsibilities">
+                        <li>Developed React 1.1</li>
+                        <li>Developed Node 1.1</li>
+                      </ul>
+                    </div>
+                </ul>
+            </section>
+            <!--Projects-->
+            <section id="projects"></section>
+            <!--Education-->
+            <section id="education"></section>
+            <!--Contact-->
+            <section id="contact">
+                <form action="" name="contact form" method="post">
+                    <div>
+                        <label for="contact-name">Full Name</label>
+                        <input id="contact-name" name="contact-name" type="text" required />
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input id="email" name="email" type="text" required />
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" name="phone" type="tel" required />
+                    </div>
+                    <div>
+                        <label for="company">Company Name</label>
+                        <input id="company" name="company" type="text" />
+                    </div>
+                    <div>
+                        <label for="location">Address/Location</label>
+                        <input id="location" name="location" type="text" />
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul class="social-media">
+                    <li>
+                        <a href=""><img src="" alt="Visit Github Profile" />GitHub</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="" alt="Visit LinkedIn Profile" />LinkedIn</a>
+                    </li>
+                    <!-- <li><a href=""><img src="" alt=""></a></li> -->
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
